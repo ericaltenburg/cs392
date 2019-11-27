@@ -1,0 +1,12 @@
+test1: 0x123abc //pass
+test2: 0b101010101010 //fails
+test3: -123456 //pass
+test4: 129876 //pass
+test5: 0b10001010 //pass
+test6: 0b111111111111 //fail (s)
+test7: 0x12bcdef //pass
+test8: 0xabcde123 //fails but shouldn't
+test9: 0123456 // pass
+test10: 98765 // pass
+jfj
+// max hex value that is allowed for int is 0x7FFFFFFF

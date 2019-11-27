@@ -1,0 +1,13 @@
+ls
+mkdir test
+ls
+rmdir test
+ls
+cat makefile
+ls
+vim makefile
+cat makefile
+ls
+sort makefile
+grep . makefile | sort
+exit
